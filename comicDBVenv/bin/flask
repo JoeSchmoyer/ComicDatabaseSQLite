@@ -1,4 +1,4 @@
-#!/home/joseph/repos/comicDatabase/comicDBVenv/bin/python3
+#!/home/joseph/repos/comicDatabaseSQLite/comicDBVenv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

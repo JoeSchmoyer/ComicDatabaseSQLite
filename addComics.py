@@ -12,8 +12,12 @@ if __name__ == '__main__':
         comic3 = Comic(title = "Comic 3",
                        author = "Jane Doe",
                        artist = "Adam Smith")
+        comic4 = Comic(title = "Comic 4",
+                       author = "J Doe",
+                       artist = "A Smith")
         db.session.add(comic1)
         db.session.add(comic2)
         db.session.add(comic3)
+        db.session.add(comic4)
         db.session.commit()
         print(Comic.query.all())
